@@ -1,0 +1,6 @@
+print('Задача 5. Часы')
+n = int(input('Введите количество минут: '))
+hours = n // 60
+minutes_left = n % 60
+print('Целых часов: ', hours)
+print('Осталось минут: ', minutes_left)
