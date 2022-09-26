@@ -1,0 +1,4 @@
+print('Задача 6. Проверяем бухгалтера')
+first_number = int(input('Введите первое число: '))
+second_number = int(input('Введите второе число: '))
+print('Сумма:', (first_number + second_number)%100)
